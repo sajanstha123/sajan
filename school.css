@@ -1,15 +1,26 @@
 
 .nevbar {
-    background-color: black;
-  height: 90px;
-    /* padding:10px; */
+    background-color:#03A791;
+   
     font-size: 20px;
 }
-.nevbar ul li{
+.nevbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 30px;
+}
+.nevbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+/* .nevbar ul li{
     display: flex;
     list-style: none;
-    flex-direction: row;
-}
+    
+} */
 .nevbar  a::after {
     contain: '';
     display: block;
@@ -18,7 +29,7 @@
     height: 2px;
    margin-top: 3px;
 
-}
+} */
 
 .nevbar a:hover ::after{
 width: 100%;
@@ -34,7 +45,7 @@ width: 100%;
 
 .nevbar a {
     margin: 40px;
-    /* font: size 1.2cm; */
+    font: size 1.2cm;
     text-decoration: none;
     color: white;
 
@@ -73,7 +84,7 @@ input {
 
 }
 
-a {
+/* a {
     margin: 10px;
     text-decoration: none;
     color: orangered;
@@ -81,7 +92,7 @@ a {
 
 a:hover {
     color: aliceblue;
-}
+} */
 
 button {
     background-color: orangered;
