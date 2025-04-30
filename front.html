@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <H2>My first java script</H2>
+    <button type="button" onclick="viewDate()">hello</button>
+    <p id="demo"></p>
+    <button type="button" onclick="changeText()"> click me</button>
+    <p id="demo1">hello</p>
+    <script>
+        const user = "sajan";
+        function viewDate() {
+            document.getElementById("demo").innerHTML = "you click chang!";
+        }
+        function changeText() {
+            document.getElementById("demo1").innerHTML =
+                "Hy" + user + ",today is " + Date();
+        }
+    </script>
+</body>
+
+</html>

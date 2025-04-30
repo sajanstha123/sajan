@@ -1,50 +1,34 @@
-
-.nevbar {
-    background-color:#03A791;
-   
-    font-size: 20px;
+*{
+    margin: 0;
 }
+.nevbar  {
+    background-color:black;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    height: 40px;
+}
+.nevbar ul{
+    display: none;
+    flex-direction: column;
+    background-color: aliceblue;
+    position: absolute;
+
+}
+
+
 .nevbar ul li a{
     text-decoration: none;
     color: black;
     padding: 30px;
     font-size: 30px;
 }
-.nevbar ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-   
-}
-/* .nevbar ul li{
-    display: flex;
-    list-style: none;
-    
-} */
-.nevbar  a::after {
-    contain: '';
-    display: block;
-    background-color: orangered;
-    width: 0;
-    height: 2px;
-   margin-top: 3px;
-
-} */
-
-.nevbar a:hover ::after{
-width: 100%;
-}
-.nevbar a {
-    justify-content: right;
-    width: 100%;
-}
-  
 .nevbar a:hover{
     color: blue;
 }
 
 .nevbar a {
-    margin: 40px;
+    margin: 0%;
     font: size 1.2cm;
     text-decoration: none;
     color: white;
@@ -59,10 +43,14 @@ width: 100%;
 
 .flag {
     display: flex;
-} 
+
+}
+.flag img{
+    border: 2px solid black;
+}
 
  .flag-left {
-    width: 50%;
+    width: 25%;
 }
 
 body {
@@ -104,14 +92,15 @@ button {
 
 .contact {
     text-align: center;
+    
 }
-
 .form {
     display: flex;
     flex-direction: column;
     width: 400px;
     gap: 20px;
-    margin: auto;
+    margin:auto;
+    
 }
 
 .image1 {
@@ -128,12 +117,20 @@ img {
 
 .project {
     text-align: center;
-    padding-left: 10%
+    padding-left: 10%;
+    
+   
+
+}
+.project img{
+    border: 2px solid black;
 }
 
 .project2 {
     display: flex;
     gap: 20px
+
+
 }
 
 .projectlayout {
@@ -145,7 +142,13 @@ img {
 
 .projectcontact {
     width: 200px;
+    background-color: wheat;
 
+}
+.projectcontact :hover {
+    width: 190px;
+    background-color: #1310a7;
+  
 }
 
 .about {
@@ -177,11 +180,47 @@ img {
 }
 .aboutpage{
     margin-top: 20px;
-    padding: 30px;
+    padding: 100px;
     color: white;
     text-align: center;
     background-color:#03A791;
 }
 .footer{
     height: 100px;
+}
+.logo{
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    gap: 2px;
+
+}
+h1{
+    text-align: center;
+}
+   
+.service p  {
+    width: 250px;
+    margin: auto;
+    
+}
+.service img{
+    border: 2px solid ;
+}
+.service p :hover{
+    background-color: #03A791;
+}
+.card:hover{
+    background-color: #1310a7;
+}
+.crad img{
+    text-align: center;
+}
+.crad{
+    text-align: center;
+}
+.image{
+    width: 400px;
+    height: 200px;
+   
 }
