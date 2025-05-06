@@ -1,38 +1,77 @@
 *{
     margin: 0;
+    padding: 0;
 }
-.nevbar  {
-    background-color:black;
-    font-size: 20px;
-    display: flex;
-    gap: 20px;
-    height: 40px;
-}
-.nevbar ul{
-    display: none;
-    flex-direction: column;
-    background-color: aliceblue;
-    position: absolute;
-
+@media(max-width : 650px ){
+    .nevbar  {
+        background-color:black;
+        font-size: 20px;
+        display: flex;
+        gap: 20px;
+        height: 40px;
+        position: static;
+    }
+    .nevbar ul{
+        list-style: non;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+         position: absolute;
+        top: 60px;
+        padding: 15px;
+        border-radius: 8px; 
+    
+    }
+    .nev-links.active{
+     display: flex; 
+    
+    }
 }
 
 
 .nevbar ul li a{
     text-decoration: none;
-    color: black;
-    padding: 30px;
-    font-size: 30px;
+    color: orange ;
+
 }
-.nevbar a:hover{
+.nevbar{
+    height: 20px;
+    justify-content: space-between;
+}
+.nevbar ul{
+    display: flex;
+    
+}
+.nevbar ul li {
+    /* height: 25px; */
+    padding: 10px;
+    list-style: none;
+ }
+.nevbar  ul li a:hover{
     color: blue;
+
 }
 
+ .navbar a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    background-color: orange;
+    margin: 3px;
+     transition: 0.2s;
+}
 .nevbar a {
     margin: 0%;
     font: size 1.2cm;
     text-decoration: none;
     color: white;
 
+}
+
+.nevbar .hanburger span{
+    width: 20px;
+    height: 3px;
+    color: wheat;
 }
 
 .earn {
@@ -72,7 +111,7 @@ input {
 
 }
 
-/* a {
+ a {
     margin: 10px;
     text-decoration: none;
     color: orangered;
@@ -80,7 +119,7 @@ input {
 
 a:hover {
     color: aliceblue;
-} */
+} 
 
 button {
     background-color: orangered;
@@ -180,7 +219,7 @@ img {
 }
 .aboutpage{
     margin-top: 20px;
-    padding: 100px;
+    padding: 300px;
     color: white;
     text-align: center;
     background-color:#03A791;

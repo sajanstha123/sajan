@@ -13,6 +13,8 @@
     <p id="demo"></p>
     <button type="button" onclick="changeText()"> click me</button>
     <p id="demo1">hello</p>
+    <button type="button" ondblclick="changetextt()">click you</button>
+    <P id="demo2"></P>
     <script>
         const user = "sajan";
         function viewDate() {
@@ -21,6 +23,9 @@
         function changeText() {
             document.getElementById("demo1").innerHTML =
                 "Hy" + user + ",today is " + Date();
+        }
+        function changetextt() {
+            document.getElementById("demo2").innerHTML = "me sajan don"
         }
     </script>
 </body>
