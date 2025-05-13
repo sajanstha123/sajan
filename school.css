@@ -2,10 +2,25 @@
     margin: 0;
     padding: 0;
 }
-@media(max-width : 650px ){
+@media(max-width : 550px ){
+ .hanburger {
+        display: flex;
+    }
+    .hanburger{
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+    }
+    .hanburger span{
+        height: 3px;
+        width: 25px;
+        background-color: aliceblue;
+        border-radius: 2px;
+    }
     .nevbar  {
         background-color:black;
-        font-size: 20px;
+        font-size: 40px;
         display: flex;
         gap: 20px;
         height: 40px;
@@ -56,7 +71,7 @@
     content: "";
     display: block;
     width: 0%;
-    background-color: orange;
+    background-color: black;    
     margin: 3px;
      transition: 0.2s;
 }
@@ -130,8 +145,12 @@ button {
 }
 
 .contact {
-    text-align: center;
-    
+    background-color: #2c3e50;
+   width: 430px;
+   height: auto;
+   text-align: center;
+ /* float: center; */
+ margin-left: 500px;
 }
 .form {
     display: flex;
@@ -172,24 +191,59 @@ img {
 
 }
 
-.projectlayout {
+/* .projectlayout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+} */
+.service-layout{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
 
-.projectcontact {
-    width: 200px;
-    background-color: wheat;
+/* .project-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 200px; */
 
-}
-.projectcontact :hover {
+/* } */
+.project-contact :hover {
     width: 190px;
     background-color: #1310a7;
   
 }
-
+.project-card{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projectcontact{
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 5px;
+    margin: 20px;
+    width: 25%;
+   
+}
+.projectcontact:hover{
+    cursor: pointer;
+}
+.projectcontact img{
+    width: 100%;
+     border-radius: 5px;
+}
+/* .project-card {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30PX;
+    width: 200px;
+    justify-content: center;
+} */
 .about {
     background-color: azure;
     width: 80%;
@@ -228,7 +282,7 @@ img {
     height: 100px;
 }
 .logo{
-    background-color: orange;
+    background-color:orange;
     text-align: center;
     display: flex;
     gap: 2px;
@@ -249,9 +303,12 @@ h1{
 .service p :hover{
     background-color: #03A791;
 }
-.card:hover{
+/* .card:hover{
     background-color: #1310a7;
-}
+} */
+ h2{
+    text-align: center;
+ }
 .crad img{
     text-align: center;
 }
