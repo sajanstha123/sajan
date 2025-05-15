@@ -1,0 +1,13 @@
+
+.BMIdiv{
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid black;
+    width: 40%;
+    
+}
+.BMIform{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
