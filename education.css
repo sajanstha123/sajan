@@ -1,13 +1,19 @@
 
 .BMIdiv{
+   
     border-radius: 10px;
     margin: auto;
-    border: 2px solid black;
-    width: 40%;
+    border: 1px solid black;
+    width: 30%;
+     box-shadow: 0 0 10px red;
     
 }
 .BMIform{
+   
     gap: 10px;
     display: flex;
     flex-direction: column;
 }
+/* .BMIform input{
+    width: 100px;
+} */
