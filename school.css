@@ -204,12 +204,7 @@ img {
     gap: 20px
 }
 
-/* .projectlayout {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-} */
+
 .service-layout {
     display: flex;
     flex-wrap: wrap;
@@ -217,13 +212,7 @@ img {
     justify-content: center;
 }
 
-/* .project-card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    width: 200px; */
 
-/* } */
 .project-contact :hover {
     width: 190px;
     background-color: #1310a7;
@@ -254,14 +243,7 @@ img {
     border-radius: 5px;
 }
 
-/* .project-card {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin: 30PX;
-    width: 200px;
-    justify-content: center;
-} */
+
 .about {
     background-color: azure;
     width: 80%;
@@ -324,17 +306,18 @@ h1 {
 
 }
 
-.service img {
+ .service img {
     border: 2px solid;
+} 
+.service1{
+    text-align: center;
+    padding-left: 100px;
+    width: 700px;
+;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
-.service p :hover {
-    background-color: #03A791;
-}
-
-/* .card:hover{
-    background-color: #1310a7;
-} */
 h2 {
     text-align: center;
 }
@@ -353,12 +336,12 @@ h2 {
 
 }
 
-.image1 {
-    background-color: gray;
-    width: 800px;
-    border-radius: 20px;
-    margin-bottom: 40px;
-     padding:10px ;
+.image1 img{
+    margin: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+   
+   
 }
 
 .image2 img {
